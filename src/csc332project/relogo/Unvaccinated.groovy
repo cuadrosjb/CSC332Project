@@ -15,18 +15,15 @@ class Unvaccinated extends ReLogoTurtle {
 	
 	def infected = false
 	
-	def step(){
-		
-
+	def step(){		
 		//face random direction
 		facexy(randomXcor(),randomYcor())
-		
 		fd(1)
 		if(infected) {
 			die()
 			hatchInfecteds(1)
 		}
-		setColor(35)
+		setColor(15)
 		
 		label = ""
 		

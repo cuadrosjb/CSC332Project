@@ -5,8 +5,8 @@ import repast.simphony.relogo.factories.AbstractReLogoGlobalsAndPanelFactory
 public class UserGlobalsAndPanelFactory extends AbstractReLogoGlobalsAndPanelFactory{
 	public void addGlobalsAndPanelComponents(){
 		
-		addSliderWL("numUnvaccinated", "Number of non-immune", 1, 1, 100, 30)
-		addSliderWL("numVaccinated", "Number of immune", 1, 1, 100, 50)
+		addSliderWL("numUnvaccinated", "Number of non-immune", 0, 1, 200, 2)
+		addSliderWL("numVaccinated", "Number of immune", 0, 1, 200, 198)
 		addMonitorWL("remainingUnvaccinateds", "Remaining Uninfected", 1)
 
 

@@ -17,13 +17,12 @@ class Infected extends ReLogoTurtle {
 		facexy(randomXcor(),randomYcor())
 		fd(1)
 		
-		setColor(55)
+		setColor(65)
 		
 		if (count(unvaccinatedsHere()) > 0){
 			label = "cough!"
-			def infectee = oneOf(unvaccinateds())
+			def infectee = oneOf(unvaccinatedsHere())
 			infect(infectee)
-//			createInfectionTo(infectee)
 		}
 		else {
 			label = ""

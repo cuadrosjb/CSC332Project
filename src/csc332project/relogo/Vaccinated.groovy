@@ -20,7 +20,7 @@ class Vaccinated extends ReLogoTurtle {
 		facexy(randomXcor(),randomYcor())
 		fd(1)
 		
-		setColor(75)
+		setColor(43)
 		
 		label = ""
 		

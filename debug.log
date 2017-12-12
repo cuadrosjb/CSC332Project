@@ -1,0 +1,45 @@
+INFO  [AWT-EventQueue-0] 2017-12-05 14:41:06,390 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Jeffrey Cuadros\Desktop\output\config.props
+INFO  [AWT-EventQueue-0] 2017-12-05 14:41:06,692 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\batch\batch_params.xml to
+	C:\Users\JEFFRE~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-3-thread-1] 2017-12-05 14:41:17,206 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\JEFFRE~1\AppData\Local\Temp\Jeffrey Cuadros_localhost4597569700765004330.zip to 
+C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 ...
+INFO  [SwingWorker-pool-3-thread-1] 2017-12-05 14:41:17,233 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-3-thread-1] 2017-12-05 14:41:17,233 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0466
+INFO  [SwingWorker-pool-3-thread-1] 2017-12-05 14:41:17,233 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438\Jeffrey Cuadros_localhost4597569700765004330.zip
+INFO  [SwingWorker-pool-3-thread-1] 2017-12-05 14:41:17,780 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-4-thread-1] 2017-12-05 14:42:17,803 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:43:17,817 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:44:17,832 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:45:17,842 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:46:17,857 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:47:17,869 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:48:17,880 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [pool-4-thread-1] 2017-12-05 14:49:17,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\JEFFRE~1\AppData\Local\Temp\simphony_model_1512502874438 for DONE:  no
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:27,384 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\output\config.props
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:27,715 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\batch\batch_params.xml to
+	C:\Users\JEFFRE~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:37,511 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\output\config.props
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:37,526 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\batch\batch_params.xml to
+	C:\Users\JEFFRE~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:39,611 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\output\config.props
+INFO  [AWT-EventQueue-0] 2017-12-05 14:55:39,626 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Jeffrey Cuadros\Desktop\CSC332\CSC332Project\batch\batch_params.xml to
+	C:\Users\JEFFRE~1\AppData\Local\Temp\unrolledParamFile.txt
+ERROR [SwingWorker-pool-3-thread-2] 2017-12-05 14:55:46,594 repast.simphony.batch.ssh.SessionsDriver - Error while preparing zip file for distributions
+java.util.zip.ZipException: invalid entry size (expected 127769 but got 126565 bytes)
+	at java.util.zip.ZipOutputStream.closeEntry(Unknown Source)
+	at repast.simphony.batch.ssh.ModelArchiveConfigurator.configure(ModelArchiveConfigurator.java:58)
+	at repast.simphony.batch.ssh.LocalSession.initModelArchive(LocalSession.java:284)
+	at repast.simphony.batch.ssh.SessionsDriver.run(SessionsDriver.java:58)
+	at repast.simphony.batch.gui.BatchConfigMediator$AntSessionRunner.doInBackground(BatchConfigMediator.java:481)
+	at repast.simphony.batch.gui.BatchConfigMediator$AntSessionRunner.doInBackground(BatchConfigMediator.java:1)
+	at javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at javax.swing.SwingWorker.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
